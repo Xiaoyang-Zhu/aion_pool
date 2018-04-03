@@ -569,7 +569,6 @@ function SetupForPool(logger, poolOptions, setupFinished) {
                             transactionDetails.txHash = result[0].response;
                             transactionDetails.to = transactionData.to;
                             transactionDetails.amount = transactionData.value;
-
                             callback(null, transactionDetails);
                         }
                     });
